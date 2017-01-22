@@ -89,7 +89,7 @@
          }
          ```
 
-       - **Fast enumerate**
+       - **Fast enumeration**
 
          - ```swift
            for number in 0..<10{
@@ -101,7 +101,44 @@
 
          - 所以也可直接在数组中枚举 `number in [2,1,23,3] `
 
-         - ​
+3. #### 数组Array
 
-     - ​
+   {0}.  Strongly typed
+
+      {0}.  一个Array里面只能有一种变量类型
+
+      {0}.  Safe
+
+      {0}.  ```swift
+         let animals = ["Cow","Dog", "BUnny"]
+         let animals:[String] = ["Cow","Dog", "BUnny"]
+         //Access the array
+         animal[2]
+         //类似的也是从0开始
+         var str = ["1","2","3"]
+         str[1] = "0"
+         //可以进行赋值
+         ```
+
+      {0}.  不能超出boundary
+
+4. #### 字典Dictionary 
+
+   {0}.  ```
+      var cuteness = ["Cow": "Not very",
+      				"Dog":"Cute",
+      				"Bunny": "Very cute"]
+      ```
+
+   {0}.  配合Array在for循环当中非常好用
+
+5. #### Function
+
+   1. #### 
+
+
+
+
+
+
 
